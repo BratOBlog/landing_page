@@ -3,11 +3,18 @@
     margin: 0 15px 0 15px;
 }
 
-
+button{
+    background-color: #3882F6;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    
+}
 
 /*/Navbar part of script*/
 
-.header, .div_hero{
+.header, .main{
     background-color: #1f2937;
 }
 
@@ -35,7 +42,7 @@
 
 /*Hero part of script*/
 
-h1{
+/*h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -59,6 +66,43 @@ h1{
     background-color: lightgray;
     margin-left: 100px;
 }
+*/
+
+.main{
+    display: flex;
+    color: #F9FAF8;
+    padding-top: 60px;
+    padding-bottom: 60px;;
+}
+
+.main > h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.main > .image_container{
+    background-color: lightslategray;
+    height: 200px;
+    width: 500px;
+    border: 2px solid yellow;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.main > button{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
