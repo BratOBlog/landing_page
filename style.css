@@ -72,7 +72,8 @@ button{
     display: flex;
     color: #F9FAF8;
     padding-top: 60px;
-    padding-bottom: 60px;;
+    padding-bottom: 60px;
+
 }
 
 .main > h1{
@@ -83,11 +84,10 @@ button{
 
 .main > .image_container{
     background-color: lightslategray;
-    height: 200px;
-    width: 500px;
-    border: 2px solid yellow;
-    text-align: center;
-    justify-content: center;
+    height: 180px;
+    width: 400px;
+    display: flex;
+    align-items: center;
 
 }
 
