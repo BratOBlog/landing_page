@@ -42,32 +42,6 @@ button{
 
 /*Hero part of script*/
 
-/*h1{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.div_hero{
-
-    color: #F9FAF8;
-    padding-top: 60px;
-}
-
-.div_hero > h1, p, button{
-    display: flex;
-    align-self:flex-start;
-}
-
-.div_hero > img{
-    display: flex;
-    height: 300px;
-    width: 400px;
-    background-color: lightgray;
-    margin-left: 100px;
-}
-*/
-
 .main{
     display: flex;
     color: #F9FAF8;
@@ -98,15 +72,6 @@ button{
 
 
 
-
-
-
-
-
-
-
-
-
 /* Information part */
 
 .div_two > h2{
@@ -114,7 +79,7 @@ button{
     color: #1f2937;
     font-weight: bolder;
     text-align: center;
-    margin: 0;
+    margin-top: 50px;
     padding: 0;
 }
 
@@ -123,6 +88,8 @@ button{
     justify-content: center;
     background-color: white;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
     
 }
 
@@ -153,18 +120,48 @@ button{
 
 .quote{
     background-color: #E5E7EB;
+    padding: 50px 40px 50px 40px;
+    
 }
 
 .quote_text{
     font-size: 36px;
     font-weight:lighter;
     font-style: italic;
+    justify-content: center;
+}
+
+.name_text{
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 
 
 
 /*Call to action part of script*/
+
+.action_call{
+    background-color: #3882F6;
+    color: white;
+    margin: 50px;
+    
+}
+
+.call_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.call_button{
+   display: flex;
+   justify-content: right;
+   align-items: center;
+ 
+
+
 
 
 
